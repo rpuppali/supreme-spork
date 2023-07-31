@@ -2,10 +2,10 @@ name: Events Demo 1
 on: 
   push:
     branches:
-    - master
+    - main
   pull_request:
     branches:
-    - master
+    - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
